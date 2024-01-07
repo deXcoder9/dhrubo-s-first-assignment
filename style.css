@@ -155,3 +155,35 @@ margin-left: 50px;
     border: none;
     margin-top: 40px;
 }
+
+/** INFORMATION */
+
+.Information{
+
+    height: 482px;
+    width: 80%;
+    margin: 120px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    border-radius: 10px;
+    background: linear-gradient(to top, rgb(255,230,230, 0), rgb(255,230,230));
+}
+
+.Information > p{
+    color: var(--primary-color);
+font-family: 'Inter', sans-serif ;
+font-size: 32px;
+font-weight: 600;
+line-height: 56px; 
+text-transform: capitalize;
+}
+
+.Information button{
+    border: none;
+    background-color: var(--secondary-color);
+    padding: 15px 30px;
+    border-radius: 10px;
+    margin-top: 35px;
+}
