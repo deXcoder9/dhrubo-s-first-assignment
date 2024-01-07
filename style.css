@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap");
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 /* 
@@ -13,44 +13,145 @@ font-family: 'Merriweather', serif;
 
 */
 
+:root {
+  --primary-color: #070211;
+  --secondary-color: #f00;
+}
+
+/* * Common Style */
+
+.head {
+  color: #070211;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 48px;
+  font-weight: 700;
+}
+
+.red-head {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.btn {
+  color: #fff;
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 20px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border-radius: 5px;
+  padding: 10px 20px;
+}
 
 /**  Header > Welcome Party    */
 
-header{
-    width: 80%;
-    height: 600px;
-    margin: auto;
-    margin-top: 70px;
-    border: 2px solid red;
-    /* background-image: url(asssets/Banner\ Image.png) ; */
-    background: linear-gradient(to top, rgba(1, 1, 11, 0), rgb(0, 0, 0)), url(asssets/Banner\ Image.png);
-  
-    /* background-size:  cover; */
-    /* background-position: center; */
+header {
+  border-radius: 10px;
+  width: 80%;
+  height: 600px;
+  margin: auto;
+  margin-top: 70px;
+  border: 1px solid black;
+  /* background-image: url(asssets/Banner\ Image.png) ; */
+  background: linear-gradient(to top, rgba(1, 1, 11, 0), rgb(0, 0, 0)),
+    url(asssets/Banner\ Image.png);
+
+  /* background-size:  cover; */
+  background-position: center;
 }
 
-.first-container{
-    display: flex;
-    justify-content: center;
-    margin: 150px auto;
+.first-container {
+  display: flex;
+  justify-content: center;
+  margin: 150px auto;
 }
 
-.wel-first{
-    text-align: center;
+.wel-first {
+  text-align: center;
 }
 
-.wel-first h3{
+.wel-first h3 {
+  color: #fff;
+  font-family: "Merriweather", serif;
+  font-size: 32px;
+  font-weight: 400;
+}
+
+.wel-first h1 {
+  color: #fff;
+  margin-top: 20px;
+  font-family: "Merriweather", serif;
+  font-size: 72px;
+  font-weight: 800;
+  line-height: 95px;
+}
+
+/* * CATEGORIES- 65% OFF */
+
+.categories {
+  width: 80%;
+  margin: 150px auto;
+  text-align: center;
+}
+
+.categories h1 {
+  color: var(--secondary-color);
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  font-size: 88px;
+  font-weight: 700;
+  margin-bottom: 45px;
+}
+
+/** Midnight Welcome Party  */
+
+.midnight-party{
+  height: 600px;
+  width: 80%;
+  margin: 150px auto;
+  background: linear-gradient(to left, rgba(1, 1, 11, 0), rgb(0, 0, 0)),
+  url(asssets/Vectorrr.png);
+  background-size: cover;
+  background-position: right;
+  background-repeat: no-repeat;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.midnight-party h1{
     color: #fff;
-    font-family: 'Merriweather', serif;
-    font-size: 32px;
-    font-weight: 400;
-}
-
-.wel-first h1{
-    color: #fff;
-    margin-top: 20px;
-    font-family: 'Merriweather', serif;
-    font-size: 72px;
+font-family: 'Merriweather', serif;
+    font-size: 64px;
     font-weight: 900;
-    line-height: 95px;
+    line-height: 88px; 
+    letter-spacing: 7.04px;
+}
+
+.midnight-party p  {
+    color: rgba(255, 255, 255, 0.80);
+
+    font-family: 'Inter', sans-serif;
+font-size: 18px;
+font-weight: 400;
+line-height: 30px;
+width: 650px;
+margin-top: 20px;
+}
+
+.midnight-party img{
+    width: 319.83px;
+height: 464.662px;
+margin-left: 50px;
+
+}
+.midnight-party div button{
+    background-color: transparent;
+    color: #fff;
+    border: none;
+    margin-top: 40px;
 }
