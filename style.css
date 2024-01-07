@@ -230,7 +230,7 @@ height: 394.844px; */
 
 .holidays-sale{
     width: 1320px;
-    height: 400px;
+    /* height: 400px; */
     margin: 200px auto;
 }
 
@@ -267,4 +267,28 @@ line-height: 32px;
     /* left: 0px; */
     top:80px;
     width: 700px;
+}
+
+/** AWESOME PORTFOLIO */
+
+.portfolio{
+    width: 1320px;
+    margin: 200px auto;
+
+}
+
+.portfolio div p{
+    width:800px ;
+    color:var(--third-color);
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px;
+}
+
+.image-bundle{
+    margin-top: 60px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
 }
