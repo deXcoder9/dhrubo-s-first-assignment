@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800;900&family=Merriweather:wght@400;700;900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* 
+
+font-family: 'Inter', sans-serif;
+font-family: 'Merriweather', serif;
+
+*/
+
+
+/**  Header > Welcome Party    */
+
+header{
+    width: 80%;
+    height: 600px;
+    margin: auto;
+    margin-top: 70px;
+    border: 2px solid red;
+    /* background-image: url(asssets/Banner\ Image.png) ; */
+    background: linear-gradient(to top, rgba(1, 1, 11, 0), rgb(0, 0, 0)), url(asssets/Banner\ Image.png);
+  
+    /* background-size:  cover; */
+    /* background-position: center; */
+}
+
+.first-container{
+    display: flex;
+    justify-content: center;
+    margin: 150px auto;
+}
+
+.wel-first{
+    text-align: center;
+}
+
+.wel-first h3{
+    color: #fff;
+    font-family: 'Merriweather', serif;
+    font-size: 32px;
+    font-weight: 400;
+}
+
+.wel-first h1{
+    color: #fff;
+    margin-top: 20px;
+    font-family: 'Merriweather', serif;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 95px;
+}
