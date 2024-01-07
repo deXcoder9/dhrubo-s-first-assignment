@@ -16,21 +16,20 @@ font-family: 'Merriweather', serif;
 :root {
   --primary-color: #070211;
   --secondary-color: #f00;
+  --third-color: rgba(7, 2, 17, 0.60);
 }
 
 /* * Common Style */
 
 .head {
-  color: #070211;
-  text-align: center;
-  font-family: "Inter", sans-serif;
+font-family: 'Merriweather', serif;
+color: #070211;
   font-size: 48px;
   font-weight: 700;
 }
 
 .red-head {
   color: var(--secondary-color);
-  text-align: center;
   font-family: "Inter", sans-serif;
   font-size: 24px;
   font-weight: 500;
@@ -51,7 +50,7 @@ font-family: 'Merriweather', serif;
 
 header {
   border-radius: 10px;
-  width: 80%;
+  width: 1320px;
   height: 600px;
   margin: auto;
   margin-top: 70px;
@@ -60,7 +59,7 @@ header {
   background: linear-gradient(to top, rgba(1, 1, 11, 0), rgb(0, 0, 0)),
     url(asssets/Banner\ Image.png);
 
-  /* background-size:  cover; */
+  background-size:  cover;
   background-position: center;
 }
 
@@ -93,7 +92,7 @@ header {
 /* * CATEGORIES- 65% OFF */
 
 .categories {
-  width: 80%;
+  width: 1320px;
   margin: 150px auto;
   text-align: center;
 }
@@ -111,7 +110,7 @@ header {
 
 .midnight-party{
   height: 600px;
-  width: 80%;
+  width: 1320px;
   margin: 150px auto;
   background: linear-gradient(to left, rgba(1, 1, 11, 0), rgb(0, 0, 0)),
   url(asssets/Vectorrr.png);
@@ -161,7 +160,7 @@ margin-left: 50px;
 .Information{
 
     height: 482px;
-    width: 80%;
+    width: 1320px;
     margin: 120px auto;
     display: flex;
     justify-content: center;
@@ -186,4 +185,86 @@ text-transform: capitalize;
     padding: 15px 30px;
     border-radius: 10px;
     margin-top: 35px;
+}
+
+/** COMING SOON OFFER  */
+
+.best-offer{
+    width: 1320px;
+    height: 400px;
+    margin: 120px auto;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    /* border: 2px solid red; */
+}
+
+.best-offer div:first-child {
+    width: 380px;
+}
+
+.best-offer div:nth-child(3) {
+    width: 260px;
+
+}
+
+.best-offer div p{
+    color: var(--third-color);
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 400;
+line-height: 32px; 
+padding: 15px 0 40px 0;
+}
+
+.best-offer .wow img{
+    /* width: 394.844px;
+height: 394.844px; */
+    border: 13px solid var(--secondary-color);
+    border-radius: 50%; 
+    padding: 25px;
+    
+}
+
+/** Holiday Sale  */
+
+.holidays-sale{
+    width: 1320px;
+    height: 400px;
+    margin: 200px auto;
+}
+
+.holidays-sale div:first-child{
+    text-align: center;
+}
+
+.holidays-sale div:first-child h4{
+    color: #070211;
+    font-family: 'Inter', sans-serif;
+font-size: 24px;
+font-weight: 500;
+margin-bottom: 10px;
+}
+
+.holidays-sale div:first-child h1{
+    color: #070211;
+    font-family: 'Merriweather', serif;
+font-size: 72px;
+font-weight: 900;
+margin-bottom: 15px;
+}
+
+.holidays-sale div:first-child p{
+    color: var(--third-color);
+    font-family: 'Inter', sans-serif;
+font-size: 20px;
+font-weight: 500;
+line-height: 32px;
+}
+
+.sup-box{
+    position: absolute;
+    /* left: 0px; */
+    top:80px;
+    width: 700px;
 }
