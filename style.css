@@ -294,6 +294,16 @@ line-height: 32px;
     flex-wrap: wrap;
     gap: 20px;
 }
+.image-bundle img{
+    transition: all 0.5s ease;
+    border-radius: 13px;
+}
+
+.image-bundle img:hover{
+    transform: scale(1.03);
+    box-shadow: 4px 4px 10px rgb(79, 68, 68);
+    filter: brightness(100%) hue-rotate(5deg);
+}
 
 /**  Subscribe NEwsletter */
 
